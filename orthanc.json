@@ -7,6 +7,9 @@
     "admin": "UnimaliaOrthanc_2026_Sicura!"
   },
 
+  "StorageDirectory": "/var/lib/orthanc/db",
+  "IndexDirectory": "/var/lib/orthanc/db",
+
   "DicomServerEnabled": true,
   "DicomAet": "UNIMALIA",
   "DicomPort": 4242,
@@ -15,23 +18,10 @@
   "HttpPort": 8042,
   "SslEnabled": false,
 
-  "StorageDirectory": "/var/lib/orthanc/db",
-  "IndexDirectory": "/var/lib/orthanc/db",
-
   "DicomWeb": {
     "Enable": true,
     "Root": "/dicom-web/",
     "EnableWado": true,
     "WadoRoot": "/wado"
-  },
-
-  "OrthancExplorer2": {
-    "IsDefaultUI": true
-  },
-
-  "HttpHeaders": {
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Headers": "Authorization, Content-Type, Accept, Origin",
-    "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS"
   }
 }
