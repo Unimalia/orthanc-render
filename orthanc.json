@@ -2,10 +2,7 @@
   "Name": "UNIMALIA Orthanc",
   "RemoteAccessAllowed": true,
 
-  "AuthenticationEnabled": true,
-  "RegisteredUsers": {
-    "admin": "UnimaliaOrthanc_2026_Sicura!"
-  },
+  "AuthenticationEnabled": false,
 
   "StorageDirectory": "/var/lib/orthanc/db",
   "IndexDirectory": "/var/lib/orthanc/db",
@@ -23,11 +20,5 @@
     "Root": "/dicom-web/",
     "EnableWado": true,
     "WadoRoot": "/wado"
-  },
-
-  "HttpHeaders": {
-    "Access-Control-Allow-Origin": "https://ohif-unimalia.onrender.com",
-    "Access-Control-Allow-Headers": "Authorization,Content-Type,Accept,Origin",
-    "Access-Control-Allow-Methods": "GET,POST,PUT,DELETE,OPTIONS"
   }
 }
