@@ -1,0 +1,37 @@
+{
+  "Name": "UNIMALIA Orthanc",
+  "RemoteAccessAllowed": true,
+
+  "AuthenticationEnabled": true,
+  "RegisteredUsers": {
+    "admin": "UnimaliaOrthanc_2026_Sicura!"
+  },
+
+  "DicomServerEnabled": true,
+  "DicomAet": "UNIMALIA",
+  "DicomPort": 4242,
+
+  "HttpServerEnabled": true,
+  "HttpPort": 8042,
+  "SslEnabled": false,
+
+  "StorageDirectory": "/var/lib/orthanc/db",
+  "IndexDirectory": "/var/lib/orthanc/db",
+
+  "DicomWeb": {
+    "Enable": true,
+    "Root": "/dicom-web/",
+    "EnableWado": true,
+    "WadoRoot": "/wado"
+  },
+
+  "OrthancExplorer2": {
+    "IsDefaultUI": true
+  },
+
+  "HttpHeaders": {
+    "Access-Control-Allow-Origin": "*",
+    "Access-Control-Allow-Headers": "Authorization, Content-Type, Accept, Origin",
+    "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS"
+  }
+}
