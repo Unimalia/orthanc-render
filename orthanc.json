@@ -23,5 +23,11 @@
     "Root": "/dicom-web/",
     "EnableWado": true,
     "WadoRoot": "/wado"
+  },
+
+  "HttpHeaders": {
+    "Access-Control-Allow-Origin": "https://ohif-unimalia.onrender.com",
+    "Access-Control-Allow-Headers": "Authorization,Content-Type,Accept,Origin",
+    "Access-Control-Allow-Methods": "GET,POST,PUT,DELETE,OPTIONS"
   }
 }
